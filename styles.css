@@ -1,0 +1,49 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../../portfolio2.0/oibsip_portfolio-/akash.jpg);
+}
+
+.container {
+    background: #05b322;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+.button:hover{
+    background-color:#d21047;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    scroll-padding-right: 230px;
+
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
